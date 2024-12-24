@@ -1,0 +1,12 @@
+services:
+  node:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    # init: true
+    # tty: true
+    # network_mode: host
+    volumes:
+      - ./app:/usr/src/app:rw
+    ports:
+      - "4200:4200"
