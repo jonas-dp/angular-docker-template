@@ -11,4 +11,4 @@
 
 ### Interacting with node and npm
 
-`docker run node <your_command>`
+`docker compose run node <your_command>`
